@@ -67,7 +67,23 @@ nav ul li a:hover{
 .container .article .article-meta{
   padding: 20px 0;
 }
+.container .article .article-meta h1{
+  font-size: 36px;
+  padding: .3em 0;
+}
 .content hr{
   width: 56%;
-  margin: 0 auto;
+  margin: 10px auto;
+}
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6,
+.content p
+{
+  padding: .5em 0;
+}
+.content h2{
+  font-size: 24px;
 }
