@@ -96,7 +96,7 @@ nav ul li a:hover{
   padding: .3em 0;
 }
 .content hr{
-  width: 56%;
+  /* width: 56%; */
   margin: 10px auto;
 }
 .content h2,
