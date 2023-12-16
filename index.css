@@ -16,6 +16,7 @@ nav{
   left: 0;
   box-shadow: #aaa 0 1px 5px;
   background-color: #343a40;
+  z-index: 8;
 }
 nav .logo{
   float: left;
@@ -46,28 +47,42 @@ nav ul li a:hover{
 
 .container{
   padding-top: 60px;
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
+  position: relative;
 }
 .container .left,
 .container .right
 {
   width: 250px;
   height: 600px;
-  background-color: #fff;
-  margin: 10px;
+  margin:0 10px;
   float: left;
+  position: fixed;
+  top: 70px;
+}
+.container .left{
+  left: 0;
+}
+.container .right{
+  right:0;
+}
+.container .k{
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
   box-shadow: #aaa 0 1px 3px;
+  background-color: #fff;
 }
 .container .article{
   width: calc(100% - 540px);
   background-color: #fff;
-  float: left;
   margin-top: 10px;
   box-shadow: #aaa 0 1px 3px;
   box-sizing: border-box;
   padding: 10px;
   overflow: hidden;
+  margin-left: 270px;
 }
 .container .article p{
   word-break:	 break-sentence;
